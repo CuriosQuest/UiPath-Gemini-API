@@ -1,0 +1,25 @@
+﻿{
+    "contents": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "{{pdf_text}}"
+                },
+               {
+                    "text": "{{jobdesc_text}}"
+                },
+               {
+                    "text": "Outputs:\n\nSummarize the resume_text based on the job_description provided. Extract the following details and provide them in a JSON format, including confidence scores (0-1) for each extracted value. Structure the JSON output as follows:\\n\\n```json\\n{\\n \\\"resumeSummary\\\": {\\n  \\\"name\\\": {\\n   \\\"value\\\": \\\"<name>\\\",\\n   \\\"confidence\\\": <confidence_score>\\n  },\\n  \\\"contactInformation\\\": {\\n   \\\"value\\\": \\\"<contact_information>\\\",\\n   \\\"confidence\\\": <confidence_score>\\n  },\\n  \\\"education\\\": {\\n   \\\"value\\\": \\\"<education>\\\",\\n   \\\"confidence\\\": <confidence_score>\\n  },\\n  \\\"workExperience\\\": {\\n   \\\"value\\\": \\\"<work_experience>\\\",\\n   \\\"confidence\\\": <confidence_score>\\n  },\\n  \\\"skills\\\": {\\n   \\\"value\\\": \\\"<skills>\\\",\\n   \\\"confidence\\\": <confidence_score>\\n  },\\n  \\\"achievements\\\": {\\n   \\\"value\\\": \\\"<achievements>\\\",\\n   \\\"confidence\\\": <confidence_score>\\n  }\\n },\\n \\\"jobDescriptionRequirements\\\": {\\n  \\\"listOfKeyQualificationsAndRequirements\\\": [\\n   \\\"<qualification_1>\\\",\\n   \\\"<qualification_2>\\\",\\n   \\\"<qualification_3>\\\"\\n  ]\\n },\\n \\\"matchingDetails\\\": [\\n  {\\n   \\\"qualification\\\": \\\"<qualification_1>\\\",\\n   \\\"match\\\": {\\n    \\\"value\\\": \\\"<Yes/No/Partial>\\\",\\n    \\\"confidence\\\": <confidence_score>\\n   },\\n   \\\"explanation\\\": \\\"<detailed_explanation>\\\"\\n  },\\n  {\\n   \\\"qualification\\\": \\\"<qualification_2>\\\",\\n   \\\"match\\\": {\\n    \\\"value\\\": \\\"<Yes/No/Partial>\\\",\\n    \\\"confidence\\\": <confidence_score>\\n   },\\n   \\\"explanation\\\": \\\"<detailed_explanation>\\\"\\n  }\\n ],\\n \\\"percentageMatch\\\": {\\n  \\\"score\\\": \\\"<percentage>\\\",\\n  \\\"explanation\\\": \\\"<brief_explanation_of_the_score_calculation>\\\"\\n }\\n}\\n```\\n\\nEnsure the output adheres strictly to the provided JSON structure. Provide a detailed and accurate summary that matches the job description requirements."
+                },
+            ]
+        }
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+            "text": "You are an advanced language model designed To assist With recruitment tasks. Given a Resume And a job description, your tasks are:\n\nSummarize the Resume: Extract key details such As the candidate's name, contact information, education, work experience, skills, and any notable achievements.\n\nMatch Check: Compare the Resume against the job description. Identify And list the key qualifications And requirements From the job description, And check how well the Resume matches Each Of these points.\n\nMismatch Check: Identify and list any qualifications, skills, or experiences from the job description that are missing or inadequately represented in the resume.\n\nPercentage Match: Provide a percentage score indicating how well the Resume aligns With the job description. This score should be based On the relevance And presence Of required qualifications, skills, And experiences."
+        }
+      ]
+    }
+}	

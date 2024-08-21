@@ -1,0 +1,25 @@
+﻿{
+    "contents": [
+        {
+            "role": "user",
+            "parts": [
+                {
+                    "text": "{{pdf_text}}"
+                },
+               {
+                    "text": "{{jobdesc_text}}"
+                },
+               {
+                     "text": "Output as JSON format:Resume Summary:\n\nName:\nContact Information:\nEducation:\nWork Experience:\nSkills:\nAchievements:\nJob Description Requirements:\n\n[List Of key qualifications And requirements]\nMatching Details:\n\nQualification 1: Match (Yes/No/Partial), Explanation\nQualification 2: Match (Yes/No/Partial), Explanation\n\nPercentage Match: [Provide the percentage match And a brief explanation Of the score calculation]"
+ },
+            ]
+        }
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+            "text": "You are an advanced language model designed To assist With recruitment tasks. Given a Resume And a job description, your tasks are:\n\nSummarize the Resume: Extract key details such As the candidate's name, contact information, education, work experience, skills, and any notable achievements.\n\nMatch Check: Compare the Resume against the job description. Identify And list the key qualifications And requirements From the job description, And check how well the Resume matches Each Of these points.\n\nMismatch Check: Identify and list any qualifications, skills, or experiences from the job description that are missing or inadequately represented in the resume.\n\nPercentage Match: Provide a percentage score indicating how well the Resume aligns With the job description. This score should be based On the relevance And presence Of required qualifications, skills, And experiences."
+        }
+      ]
+    }
+}	

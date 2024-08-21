@@ -1,0 +1,45 @@
+We are seeking an experienced and motivated RPA Program Manager to lead our Robotic Process Automation initiatives. The ideal candidate will have a strong background in project management, process improvement, and RPA technologies. This role involves overseeing the planning, implementation, and tracking of RPA projects to enhance operational efficiency and achieve business goals.
+
+Key Responsibilities:
+
+Program Leadership:
+
+Develop and execute a comprehensive RPA strategy aligned with business objectives.
+Lead and manage the RPA program, including project planning, execution, and monitoring.
+Collaborate with cross-functional teams to identify automation opportunities.
+Project Management:
+
+Define project scope, goals, and deliverables.
+Create detailed project plans, timelines, and resource allocations.
+Ensure projects are delivered on time, within scope, and within budget.
+Stakeholder Engagement:
+
+Communicate project status, risks, and issues to stakeholders and senior management.
+Foster strong relationships with business units to ensure alignment and support for RPA initiatives.
+Process Improvement:
+
+Analyze existing processes to identify opportunities for automation.
+Design and implement efficient workflows using RPA tools and technologies.
+Monitor and optimize automated processes to ensure high performance and reliability.
+Team Management:
+
+Lead, mentor, and develop a team of RPA developers and analysts.
+Provide guidance and support to ensure team members are equipped to meet project demands.
+Quality Assurance:
+
+Establish and maintain standards for RPA development and deployment.
+Conduct regular reviews and audits to ensure compliance with best practices and quality standards.
+Reporting and Analytics:
+
+Track and report on key performance indicators (KPIs) related to RPA initiatives.
+Provide insights and recommendations based on data analysis to drive continuous improvement.
+Qualifications:
+
+Bachelor’s degree in Computer Science, Information Technology, Business Administration, or related field.
+5+ years of experience in project management, with a focus on process improvement and automation.
+Strong understanding of RPA technologies and platforms (e.g., UiPath, Blue Prism, Automation Anywhere).
+Proven track record of successfully leading and delivering RPA projects.
+Excellent problem-solving, analytical, and critical thinking skills.
+Strong communication, interpersonal, and stakeholder management abilities.
+Experience with Agile and Scrum methodologies is a plus.
+Relevant certifications (e.g., PMP, Six Sigma, RPA Developer) are advantageous.
